@@ -1,7 +1,13 @@
 # Junior WebFit Stock and Price
+## Usage
+```
+source secrets.env
+node index.js
+```
 
 ## Overview
-The purpose of this project is to enable the ability to update price and stock information on ProdiG products for Junior WebFit. The way this will work is it will grab from a Google spreasheet in which we update availability for all club variants.
+### Goal
+The purpose of this project is to enable the ability to update price and stock information on ProdiG products for Junior WebFit. The way this will work is it will grab from a Google spreasheet in which we update availability for all club variants. This means that the spreadhseet we call upon should be updated as frequently as possible.
 
 ## Deployment
 This is a foundation for the actual script which will run locally in the api of the Azure resource that deploys our project. 
