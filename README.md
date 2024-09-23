@@ -1,5 +1,7 @@
 # Junior WebFit Stock and Price
 ## Usage
+First you must grab the secrets.env file associated with this project, held in the the 1password vault.
+
 ```
 source secrets.env
 node index.js
